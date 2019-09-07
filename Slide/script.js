@@ -1,6 +1,6 @@
-var slider = document.getElementById('box');
-var images = [1, 2, 3, 4, 5, 6, 7];
-var i = images.length;
+let slider = document.getElementById('box');
+let images = [2, 3, 4, 5, 6, 7, 1];
+let i = images.length;
 function nextImage() {
   if (i < images.length) {
     i++;
@@ -14,6 +14,14 @@ function prewImage() {
     i--;
   } else {
     i = images.length;
+  }
+  slider.innerHTML = "<img src="+images[i - 1]+".jpg>";
+}
+let playImage = function () {
+  if (i < images.length) {
+    i++;
+  } else {
+    i = 1;
   }
   slider.innerHTML = "<img src="+images[i - 1]+".jpg>";
 }

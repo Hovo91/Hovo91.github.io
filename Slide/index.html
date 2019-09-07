@@ -10,8 +10,10 @@
    <div id="box">
      <img src="1.jpg">
    </div>
-    <button id = left onclick="prewImage()">-</button>
-    <button id = right onclick="nextImage()">+</button>
+    <button id = prew onclick="prewImage()">Prew</button>
+    <button id = next onclick="nextImage()">Next</button>
+    <button id = play onclick="setInterval(playImage, 2000)">Play</button>
+    <button id = pause onclick="clearInterval(playImage)">Pause</button>
   </div>
   <script src="script.js"></script>
 </body>

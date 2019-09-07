@@ -5,26 +5,41 @@ img {
 #slider {
   width: 650px;
   height: 650px;
-  margin: 20px auto;
+  margin: auto;
   position: relative;
-  border: 10px solid white;
+  border: 10px solid aquamarine;
   box-shadow: 0 0 5px 2px #ccc;
 }
 button {
-  width: 50px;
-  padding: 15px;
+  width: 60px;
   border: none;
-  background: #37f;
-  font-size: 30px;
+  background: #F0883D;
+  font-size: 15px;
   color: white;
   position: absolute;
-  top: 43%;
+  top: 335px;
   cursor: pointer;
 }
-#left {
+#prew {
+  padding: 15px 15px 15px 3px;
   border-radius: 0 10px 10px 0;
 }
-#right {
-  margin-left: 600px;
+#next {
+  padding: 15px;
+  margin-left: 590px;
   border-radius: 10px 0 0 10px;
+}
+#play {
+  border-right: 1px solid;
+  padding: 15px;
+  margin-left: 265px;
+  top: 660px;
+  border-radius: 10px 0 0 10px;
+}
+#pause {
+  padding: 15px 15px 15px 5px;
+  border-left: 1px solid;
+  margin-left: 325px;
+  top: 660px;
+  border-radius: 0 10px 10px 0;
 }
