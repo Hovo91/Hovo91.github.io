@@ -1,0 +1,30 @@
+img {
+  width: 650px;
+  height: 650px;
+}
+#slider {
+  width: 650px;
+  height: 650px;
+  margin: 20px auto;
+  position: relative;
+  border: 10px solid white;
+  box-shadow: 0 0 5px 2px #ccc;
+}
+button {
+  width: 50px;
+  padding: 15px;
+  border: none;
+  background: #37f;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 43%;
+  cursor: pointer;
+}
+#left {
+  border-radius: 0 10px 10px 0;
+}
+#right {
+  margin-left: 600px;
+  border-radius: 10px 0 0 10px;
+}
