@@ -1,45 +1,43 @@
 img {
   width: 650px;
-  height: 650px;
-}
-#slider {
-  width: 650px;
-  height: 650px;
-  margin: auto;
-  position: relative;
   border: 10px solid aquamarine;
   box-shadow: 0 0 5px 2px #ccc;
 }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#slider {
+  width: 650px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 button {
-  width: 60px;
-  border: none;
-  background: #F0883D;
-  font-size: 15px;
-  color: white;
-  position: absolute;
-  top: 335px;
+  height: 60px;
+  border-style: none;
+  background-color: #F0883D;
+  position: relative;
   cursor: pointer;
 }
 #prew {
-  padding: 15px 15px 15px 3px;
-  border-radius: 0 10px 10px 0;
+  width: 60px;
+  padding: 15px;
+  border-radius: 30px 0 0 30px;
 }
 #next {
+  width: 60px;
   padding: 15px;
-  margin-left: 590px;
-  border-radius: 10px 0 0 10px;
+  border-radius: 0 30px 30px 0;
 }
-#play {
-  border-right: 1px solid;
+#play-pause {
+  width: 100px;
   padding: 15px;
-  margin-left: 265px;
-  top: 660px;
-  border-radius: 10px 0 0 10px;
-}
-#pause {
-  padding: 15px 15px 15px 5px;
-  border-left: 1px solid;
-  margin-left: 325px;
-  top: 660px;
-  border-radius: 0 10px 10px 0;
+  border-radius: 30px;
 }
