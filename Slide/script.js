@@ -1,6 +1,6 @@
 let img = document.getElementById('img');
 let slider = document.getElementById('slider');
-let images = [2, 3, 4, 5, 6, 7, 1];
+let images = [8, 2, 3, 4, 5, 6, 7, 1];
 let i = images.length;
 let timer = 0;
 
