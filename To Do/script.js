@@ -6,7 +6,7 @@ input.onclick = function(){
   input.placeholder = '';
 }
 function addToDo(toDo){
-  input.placeholder = 'Add to do :)';
+  input.placeholder = 'Add to task :)';
   let j = 0;
   const div = document.createElement('div');
   const span = document.createElement('span');
