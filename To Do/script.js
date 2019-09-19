@@ -1,31 +1,40 @@
 const input = document.getElementById('text');
 const add = document.getElementById('add-btn');
 const list = document.getElementById('to-do-list');
-let data = new Date();
-let options = {weekday: 'short', month: 'short', day: 'numeric'};
+
+input.onclick = function(){
+  input.placeholder = '';
+}
 function addToDo(toDo){
-  let i = 0;
+  input.placeholder = 'Add to do :)';
+  let j = 0;
   const div = document.createElement('div');
   const span = document.createElement('span');
   const button = document.createElement('button');
+  const checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.className = 'checkbox';
   div.className = 'item';
   button.className = 'delete';
   button.innerText = 'Delete';
   span.className = 'item-text';
+  let data = new Date();
+  let options = {month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric'};
   span.innerText = toDo + "   " + data.toLocaleDateString('en-US', options);
   div.appendChild(span);
+  div.appendChild(checkbox);
   div.appendChild(button);
   list.appendChild(div);
   button.onclick = function deleteItem(){
     div.remove();
   }
-  span.onclick = function(){
-    if(i % 2 === 0) {    
+  checkbox.onclick = function(){
+    if(j % 2 === 0) {    
       span.style = "text-decoration: line-through";
-      i++;
+      j++;
     } else {
       span.style = "text-decoration: none";
-      i++;
+      j++;
     }
   }
 }
