@@ -6,7 +6,7 @@ input.onclick = function(){
   input.placeholder = '';
 }
 function addToDo(toDo){
-  input.placeholder = 'Add to task :)';
+  input.placeholder = 'Add a task :)';
   let j = 0;
   const div = document.createElement('div');
   const span = document.createElement('span');
@@ -50,9 +50,9 @@ document.addEventListener('keyup', function(event){
 });
 
 add.addEventListener('click', function(event){
-    const toDo = input.value;
-    if(toDo != 0) {
-      addToDo(toDo);
-    }
-    input.value = '';
+  const toDo = input.value;
+  if(toDo != 0) {
+    addToDo(toDo);
+  }
+  input.value = '';
 });
