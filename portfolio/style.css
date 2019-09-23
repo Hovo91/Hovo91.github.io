@@ -1,0 +1,26 @@
+body {
+  background-color: #ccc;
+}
+section {
+  height: 300px;
+  display: flex;
+  /*justify-content: center;*/
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.head, .div {
+  width: 200px;
+  height: 200px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.body {
+  height: 50%;
+  width: 100%;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
