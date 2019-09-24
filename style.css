@@ -1,14 +1,15 @@
 body {
   margin: 0;
-  font-family: Lucida Console;
-  background-color: coral;
+  font-family: Lucida Console, monospace, cursive;
+  background-image: url(images/backgraund.jpg);
+  background-size: cover;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 h1 {
   margin: 10px;
-  color: #E9E189;
+  color: #EBCDFF;
   text-align: center;
   font-size: 50px;
   width: 100%;
@@ -27,7 +28,7 @@ a {
   width: 200px;
   text-decoration: none;
   margin: 10px;
-  color: #E9E189;
+  color: #EBCDFF;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -35,4 +36,17 @@ a {
 }
 .slider-qr, .to-do-qr {
   height: 200px;
+}
+#icons {
+  width: 250px;
+  display: flex;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+}
+#icons a img {
+  margin: 3px;
+  height: 50px;
+  width: 50px;
 }
