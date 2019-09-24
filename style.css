@@ -1,26 +1,36 @@
 body {
-  background-color: #ccc;
-}
-section {
-  height: 300px;
-  display: flex;
-  /*justify-content: center;*/
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.head, .div {
-  width: 200px;
-  height: 200px;
-  border: 2px solid red;
+  margin: 0;
+  font-family: cursive;
+  background-color: coral;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
 }
-.body {
-  height: 50%;
+h1 {
+  margin: 10px;
+  color: #E9E189;
+  text-align: center;
+  font-size: 50px;
   width: 100%;
-  border: 2px solid black;
-  box-sizing: border-box;
+}
+.my-image {
+  margin: 20px;
+  height: 280px;
+  border-radius: 50%;
+}
+a {
+  text-decoration: none;
+  margin: 10px;
+  color: #E9E189;
+  text-align: center;
+  font-size: 20px;
+  flex: 1;
+}
+#menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.to-do, .slider {
+  width: 280px;
 }
