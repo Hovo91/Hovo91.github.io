@@ -25,7 +25,7 @@ h1 {
   flex-wrap: wrap;
 }
 a {
-  width: 200px;
+  width: 350px;
   text-decoration: none;
   margin: 10px;
   color: #EBCDFF;
@@ -35,7 +35,7 @@ a {
   font-size: 20px;
 }
 .slider-qr, .to-do-qr {
-  height: 200px;
+  height: 400px;
 }
 #icons {
   width: 250px;
