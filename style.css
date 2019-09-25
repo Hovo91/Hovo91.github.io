@@ -11,7 +11,7 @@ h1 {
   margin: 50px;
   color: #EBCDFF;
   text-align: center;
-  font-size: 49px;
+  font-size: 50px;
   width: 100%;
 }
 .my-image {
@@ -20,11 +20,13 @@ h1 {
   border-radius: 50%;
 }
 #menu {
+  width: 1000px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 a {
+  font-family: arial;
   width: 340px;
   text-decoration: none;
   margin: 10px;
