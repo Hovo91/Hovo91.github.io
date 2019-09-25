@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Lucida Console, monospace, cursive;
+  font-family: arial, Lucida Console, monospace, cursive;
   background-image: url(images/backgraund.jpg);
   background-size: cover;
   display: flex;
