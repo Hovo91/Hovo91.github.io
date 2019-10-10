@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: arial;
+  background: url(1.jpg);
+  background-size: cover;
+  position: relative;
+}
+canvas {
+  margin: 20px;
+  opacity: 0.7;
+}
+#play-btn {
+  width: 80px;
+  height: 30px;
+  margin: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  background-color: #FFC85A;
+}
+#score {
+  width: 80px;
+  height: 30px;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFC85A;
+}
+#game-over {
+  position: absolute;
+  z-index: 1000;
+  top: 100px;
+  color: red;
+  font-weight: bold;
+  font-size: 230px;
+}
