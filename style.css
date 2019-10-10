@@ -36,7 +36,7 @@ a {
   flex-wrap: wrap;
   font-size: 20px;
 }
-.slider-qr, .to-do-qr {
+.qr {
   height: 400px;
 }
 #icons {
